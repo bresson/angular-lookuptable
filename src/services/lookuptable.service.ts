@@ -22,7 +22,7 @@ export class LookuptableserviceService {
     @Inject('paramId') private paramId: string
   ) {
     console.log('courses', courses);
-    console.log('defaultLookup', defaultLookup);
+    // console.log('defaultLookup', defaultLookup);
     this.lookupTable = {
       ...(courses && courses),
       // DEFAULT,
